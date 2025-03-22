@@ -195,3 +195,35 @@ a {
   color: #fff;
   font-weight: bold;
 }
+
+@media (max-width: 1000px) {
+  .main-bg {
+    background-size: cover;
+  }
+  .main-titulo {
+    font-size: 45px;
+  }
+  .main-infos p {
+    font-size: 18px;
+  }
+  .botao {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .sobre {
+    flex-direction: column;
+    padding: 40px 0 0 0;
+    gap: 20px;
+  }
+  .sobre-infos {
+    max-width: 80%;
+  }
+  .sobre img {
+    width: 80%;
+  }
+
+  .projetos-img img {
+    width: 27.5%;
+  }
+}
